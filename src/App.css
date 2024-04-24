@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(20 184 166);
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  height: 55rem;
+  margin-top: 15rem;
+  padding: 0.5rem;
+}
+
+.left_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 35rem;
+  flex-grow: 1;
+  p {
+    color: grey;
+    font-size: 1rem;
+  }
+}
+
+.title_left {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.input_main_container {
+  margin-top: 2rem;
+}
+
+.input_container {
+  padding-bottom: 3rem;
+}
+
+.label_name {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.input_name {
+  border: 2px solid grey;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.input_name:focus {
+  border: 2.5px solid rgb(20 184 166);
+  outline: none; /* In order to see it on Google Chrome*/
+}
+
+.right_container {
+  flex-grow: 2;
+  display: flex;
+}
+
+.checkbox_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.image_learning {
+  border-radius: 10px;
+}
+
+.checkbox_terms {
+  height: 2rem;
+  width: 2rem;
+  accent-color: rgb(20 184 166);
+  border-radius: 10px;
+}
+
+.checkbox_terms:focus {
+  border: 2.5px solid rgb(20 184 166);
+  outline: none; /* In order to see it on Google Chrome*/
+}
+
+.button_form {
+  background-color: rgb(20 184 166);
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border-color: rgb(20 184 166);
+  box-shadow: 4px 4px 1px 1px rgba(203, 203, 225, 0.232);
+  margin-top: 2rem;
+  width: 100%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.5s ease;
+}
+
+.button_form:hover {
+  background-color: rgb(101, 222, 208);
+  color: black;
+}
+
+.error-color {
+  color: red;
+}
